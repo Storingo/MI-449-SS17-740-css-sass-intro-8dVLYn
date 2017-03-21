@@ -1,0 +1,95 @@
+@import "_variables";
+
+div {
+  width: 100%;
+  margin: 0 auto;
+  background-color: $primary-color;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: $font-base-size * 4;
+  font-family: $serif-fonts;
+}
+
+h2 {
+  font-size: $font-base-size * 3.5;
+  font-family: $serif-fonts;
+}
+
+h3 {
+  font-size: $font-base-size * 3;
+  font-family: $serif-fonts;
+}
+
+h4 {
+  color: $color-five;
+  font-size: $font-base-size * 2.5;
+  font-family: $serif-fonts;
+}
+
+h5 {
+  color: lighten($color-five, 10%);
+  font-size: $font-base-size * 2;
+  font-family: $serif-fonts;
+}
+
+h6 {
+  color: lighten($color-five, 50%);
+  font-size: $font-base-size * 1.5;
+  font-family: $serif-fonts;
+}
+
+img,
+input,
+textarea,
+table,
+label,
+figure {
+  border-radius: $border-radius;
+}
+
+a,
+p,
+th,
+td,
+figcaption,
+input,
+textarea,
+label {
+  color: $color-one;
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+th,
+figcaption,
+h2 {
+  color: lighten($color-three, 10%);
+}
+
+tr,
+input,
+label,
+h1 {
+  color: $color-two;
+}
+
+td,
+h3 {
+  color: $color-four;
+}
+
+p {
+  color: darken($color-one, 10%);
+  font-size: $font-base-size * 1.5;
+}
+
+a {
+  font-size: $font-base-size * 2.5;
+}
